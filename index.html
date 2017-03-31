@@ -1,1 +1,450 @@
-Hello World
+<!DOCTYPE Html>
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'/>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'/>
+
+<title>Essentials of Java</title>
+</head>
+<body>
+  <div class="logo">
+        <h1>IDP</h1>
+  </div>
+  <div class="main-title">
+    <h1><center>Java Fundamentals</center></h1>
+  </div>
+  <div class="tabs">
+      <ul class="tab-links">
+          <li class="active"><a href="#tab1">Intro</a></li>
+          <li><a href="#tab2">Classes</a></li>
+          <li><a href="#tab3">Static & Dynamic</a></li>
+          <li><a href="#tab4">Return</a></li>
+          <li><a href="#tab5">Compile & Run</a></li>
+          <li><a href="#tab6">Methods</a></li>
+          <li><a href="#tab7">While</a></li>
+          <li><a href="#tab8">Do While</a></li>
+          <li><a href="#tab9">Title Nine</a></li>
+          <li><a href="#tab10">Title Ten</a></li>
+      </ul>
+
+      <div class="tab-content">
+          <!--TAB 1-->
+          <div id="tab1" class="tab active">
+            <div class="inside-tab-text">
+              <p>Welcome to Java Fundamentals</p>
+              <p>A course Designed by Ionut Deaconu and Dhen Padilla</p>
+            </div>
+            <div class="inside-tab-video">
+              <iframe width="700" height="450" src="https://www.youtube.com/embed/4m2rsVbyuZw" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab-->
+              <form class="questionForm" id="q1" data-question="1">
+                <h1>What do you expect at the end of this tutorial?</h1>
+                <ul>
+                  <li><input name="q1" type="radio" value="a">To be a qualified programmer</input></li>
+                  <li><input name="q1" type="radio" value="b">To be able to hack NASA</input></li>
+                  <li><input name="q1" type="radio" value="c">To have basic knowledge of the java programming language</input></li>
+                  <li><input name="q1" type="radio" value="d">To learn how to make a website</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <div class="divToSayNext"><h1>Go to the next lesson!</h1></div>
+            </div>
+          </div>
+
+          <!--CLASSES-->
+          <div id="tab2" class="tab">
+            <div class="inside-tab-text">
+              <h1>Creating a class</h1>
+              <p> In this section, you will learn about classes, the building blocks of Java </p>
+            </div>
+            <div class="inside-tab-video">
+              <iframe width="700" height="450" src="https://www.youtube.com/embed/eR4Y4uQ7YFk" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab-->
+              <form class="questionForm" id="q2" data-question="2">
+                <h1>A class can be:</h1>
+                <ul>
+                  <li><input name="q2" type="radio" value="a">Public</input></li>
+                  <li><input name="q2" type="radio" value="b">Private</input></li>
+                  <li><input name="q2" type="radio" value="c">Protected</input></li>
+                  <li><input name="q2" type="radio" value="d">An internet server</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q3" data-question="3">
+                <h1>In the headline of the class:</h1>
+                <ul>
+                  <li><input name="q3" type="radio" value="a">You need the keyword “static”</input></li>
+                  <li><input name="q3" type="radio" value="b">You need the name of the class</input></li>
+                  <li><input name="q3" type="radio" value="c">You need to write "public"</input></li>
+                  <li><input name="q3" type="radio" value="d">You need the type of the class</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <form class="questionForm" id="q4" data-question="4">
+                <h1>The name of the Java file:</h1>
+                <ul>
+                  <li><input name="q4" type="radio" value="a">Needs to be the same as the class it contains, with the .class extension</input></li>
+                  <li><input name="q4" type="radio" value="b">Needs to be the same as the class it contains, with the .java extension</input></li>
+                  <li><input name="q4" type="radio" value="c">Needs both the .class and .java extensions</input></li>
+                  <li><input name="q4" type="radio" value="d">Needs no extension</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <div class="divToSayNext"><h1>Go to the next lesson!</h1></div>
+                <!-- End -->
+            </div>
+          </div>
+
+          <!--S & D-->
+          <div id="tab3" class="tab">
+            <div class="inside-tab-text">
+              <p>Static and Dynamic</p>
+              <p>In this section, you will learn the difference between static and dynamic variables</p>
+            </div>
+            <div class="inside-tab-video">
+              <iframe width="700" height="450" src="https://www.youtube.com/embed/u6XQTw96v9E" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab-->
+              <form class="questionForm" id="q5" data-question="5">
+                <h1>The static context is created:</h1>
+                <ul>
+                  <li><input name="q5" type="radio" value="a">It is not created, ever</input></li>
+                  <li><input name="q5" type="radio" value="b">At compile time</input></li>
+                  <li><input name="q5" type="radio" value="c">When the file is created</input></li>
+                  <li><input name="q5" type="radio" value="d">At runtime</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q6" data-question="6">
+                <h1>The dynamic context is created:</h1>
+                <ul>
+                  <li><input name="q6" type="radio" value="a">At runtime</input></li>
+                  <li><input name="q6" type="radio" value="b">At compile time</input></li>
+                  <li><input name="q6" type="radio" value="c">It is not created, ever</input></li>
+                  <li><input name="q6" type="radio" value="d">When the file is created</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <form class="questionForm" id="q7" data-question="7">
+                <h1>A non-static variable:</h1>
+                <ul>
+                  <li><input name="q7" type="radio" value="a">Need the word “static”</input></li>
+                  <li><input name="q7" type="radio" value="b">Is allocated memory for at compile time</input></li>
+                  <li><input name="q7" type="radio" value="c">Cannot be referenced from a static context</input></li>
+                  <li><input name="q7" type="radio" value="d">Does not exist in Java</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <div class="divToSayNext"><h1>Go to the next lesson!</h1></div>
+                <!-- End-->
+            </div>
+          </div>
+
+          <!--RETURNS-->
+          <div id="tab4" class="tab">
+            <div class="inside-tab-text">
+              <p>Return Statements</p>
+              <p>Here you will learn the concept of returning statements in Java.</p>
+            </div>
+            <div class="inside-tab-video">
+              <iframe width="700" height="450" src="https://www.youtube.com/embed/P3HxBwSepjA" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab-->
+
+              <form class="questionForm" id="q8" data-question="8">
+                <h1>The keyword “void” means:</h1>
+                <ul>
+                  <li><input name="q8" type="radio" value="a">The method is neither declared in a static context nor in a dynamic one</input></li>
+                  <li><input name="q8" type="radio" value="b">The method does not return a value</input></li>
+                  <li><input name="q8" type="radio" value="c">The return type is of type “void”</input></li>
+                  <li><input name="q8" type="radio" value="d">The method cannot be accessed from within the class</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <form class="questionForm" id="q9" data-question="9">
+                <h1>You can use a method that returns a value:</h1>
+                <ul>
+                  <li><input name="q9" type="radio" value="a">By passing it to a variable of the same type as the method</input></li>
+                  <li><input name="q9" type="radio" value="b">By simply calling it on a new line</input></li>
+                  <li><input name="q9" type="radio" value="c">By printing it on the standard output</input></li>
+                  <li><input name="q9" type="radio" value="d">By writing it in the class heading</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <div class="divToSayNext"><h1>Go to the next lesson!</h1></div>
+                <!-- End -->
+            </div>
+          </div>
+
+          <!-- COMPILE AND RUN-->
+          <div id="tab5" class="tab">
+            <div class="inside-tab-text">
+              <p>Compile & Run</p>
+              <p>In this section, you will learn how to compile your java classes with javac and running them on the terminal</p>
+            </div>
+            <div class="inside-tab-video">
+              <iframe width="700" height="450" src="https://www.youtube.com/embed/03ekqj42Z6o" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab -->
+              <form class="questionForm" id="q10" data-question="10">
+                <h1>Javac is the name of:</h1>
+                <ul>
+                  <li><input name="q10" type="radio" value="a">Any Java program</input></li>
+                  <li><input name="q10" type="radio" value="b">The Java virtual machine</input></li>
+                  <li><input name="q10" type="radio" value="c">The Java interpreter</input></li>
+                  <li><input name="q10" type="radio" value="d">The Java compiler</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q11" data-question="11">
+                <h1>The command “java” is used for:</h1>
+                <ul>
+                  <li><input name="q11" type="radio" value="a">The Java compiler</input></li>
+                  <li><input name="q11" type="radio" value="b">The Java Interpeter</input></li>
+                  <li><input name="q11" type="radio" value="c">The Java Documentation book</input></li>
+                  <li><input name="q11" type="radio" value="d">Java help</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <form class="questionForm" id="q12" data-question="12">
+                <h1>System.out.println is used for:</h1>
+                <ul>
+                  <li><input name="q12" type="radio" value="a">Printing a primitive type</input></li>
+                  <li><input name="q12" type="radio" value="b">Printing a piece of paper</input></li>
+                  <li><input name="q12" type="radio" value="c">Printing a picture</input></li>
+                  <li><input name="q12" type="radio" value="d">Printing the content of the .class file</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <div class="divToSayNext"><h1>Go to the next lesson!</h1></div>
+            </div>
+          </div>
+
+          <!--METHODS -->
+          <div id="tab6" class="tab">
+            <div class="inside-tab-text">
+              <p>Method Arguments</p>
+              <p>Here is where you will learn how to call different methods to do various functions in your code.</p>
+            </div>
+            <div class="inside-tab-video">
+              <iframe width="700" height="450" src="https://www.youtube.com/embed/umbKITmM9G4" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab-->
+              <form class="questionForm" id="q13" data-question="13">
+                <h1>Method Arguments...</h1>
+                <ul>
+                  <li><input name="q13" type="radio" value="a">Need to be the same type as the method they are declared in</input></li>
+                  <li><input name="q13" type="radio" value="b">Need to be primitive types</input></li>
+                  <li><input name="q13" type="radio" value="c">Can be of type String</input></li>
+                  <li><input name="q13" type="radio" value="d">Can be called by Javac</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q14" data-question="14">
+                <h1>You can have</h1>
+                <ul>
+                  <li><input name="q14" type="radio" value="a">Negative number of Method Arguments</input></li>
+                  <li><input name="q14" type="radio" value="b">Zero or more Method Arguments</input></li>
+                  <li><input name="q14" type="radio" value="c">Voice recording as Method Argument</input></li>
+                  <li><input name="q14" type="radio" value="d">Pictures as Method Arguments</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <form class="questionForm" id="q15" data-question="15">
+                <h1>When you call a function with Method Arguments..</h1>
+                <ul>
+                  <li><input name="q15" type="radio" value="a">You don’t need to care about the type required</input></li>
+                  <li><input name="q15" type="radio" value="b">You can provide more arguments than required</input></li>
+                  <li><input name="q15" type="radio" value="c">You can provide less arguments than required</input></li>
+                  <li><input name="q15" type="radio" value="d">You need to enclose the arguments passed in parenthesis</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <div class="divToSayNext"><h1>Go to the next lesson!</h1></div>
+            </div>
+          </div>
+
+          <!--WHILE LOOPS-->
+          <div id="tab7" class="tab">
+            <div class="inside-tab-text">
+              <p>While loops in Java</p>
+              <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+            </div>
+            <div class="inside-tab-video">
+              <iframe width="700" height="450" src="https://www.youtube.com/embed/9mpGT1uWimo" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab -->
+              <form class="questionForm" id="q16" data-question="16">
+                <h1>The while loop can be used for:</h1>
+                <ul>
+                  <li><input name="q16" type="radio" value="a">Checking if there are compile time errors</input></li>
+                  <li><input name="q16" type="radio" value="b">Doing something more than once</input></li>
+                  <li><input name="q16" type="radio" value="c">Print a String</input></li>
+                  <li><input name="q16" type="radio" value="d">Call a class</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <form class="questionForm" id="q17" data-question="17">
+                <h1>A while loop can run:</h1>
+                <ul>
+                  <li><input name="q17" type="radio" value="a">Only twice</input></li>
+                  <li><input name="q17" type="radio" value="b">Only once</input></li>
+                  <li><input name="q17" type="radio" value="c">Zero || Infinite times </input></li>
+                  <li><input name="q17" type="radio" value="d">Negative times</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q18" data-question="18">
+                <h1>A while loop can:</h1>
+                <ul>
+                  <li><input name="q18" type="radio" value="a">Be broken</input></li>
+                  <li><input name="q18" type="radio" value="b">Be outside of a class</input></li>
+                  <li><input name="q18" type="radio" value="c">Be called by Javac</input></li>
+                  <li><input name="q18" type="radio" value="d">Check for errors in code</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <div class="divToSayNext"><h1>Go to the next lesson!</h1></div>
+                <!-- End -->
+            </div>
+          </div>
+
+          <!--DO-WHILE LOOPS-->
+          <div id="tab8" class="tab">
+            <div class="inside-tab-text">
+              <p>Do-While Loops</p>
+              <p>Here you will learn a different type of 'while' loop called the Do-While loop</p>
+            </div>
+            <div class="inside-tab-video">
+              <iframe width="700" height="450" src="https://www.youtube.com/embed/4uAH_cTTl_0" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab -->
+              <form class="questionForm" id="q19" data-question="19">
+                <h1>The Do-While can be used for:</h1>
+                <ul>
+                  <li><input name="q19" type="radio" value="a">Running a piece of code only if the while statement is true</input></li>
+                  <li><input name="q19" type="radio" value="b">Doing something more than once</input></li>
+                  <li><input name="q19" type="radio" value="c">Checking if there are compile time errors</input></li>
+                  <li><input name="q19" type="radio" value="d">Running a piece of code only if the while statement is false</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <form class="questionForm" id="q20" data-question="20">
+                <h1>The Do-While loop can run:</h1>
+                <ul>
+                  A do while loop can run:
+                  <li><input name="q20" type="radio" value="a">Zero Times</input></li>
+                  <li><input name="q20" type="radio" value="b">Only ever once</input></li>
+                  <li><input name="q20" type="radio" value="c">Only ever twice</input></li>
+                  <li><input name="q20" type="radio" value="d">Infinite times</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <!-- End -->
+            </div>
+            <div class="divToSayNext"><h1>Go to the next lesson!</h1></div>
+          </div>
+
+          <!--FOR LOOPS-->
+          <div id="tab9" class="tab">
+            <div class="inside-tab-text">
+              <p>For Loops</p>
+              <p>For loops are another fundamental aspect of programming, In this video, we teach you how to use them in Java.</p>
+            </div>
+            <div class="inside-tab-video">
+              <iframe width="700" height="450" src="https://www.youtube.com/embed/3v9az5wR3mg" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab -->
+              <form class="questionForm" id="q21" data-question="21">
+                <h1>The For loop can be used for:</h1>
+                <ul>
+                  <li><input name="q21" type="radio" value="a">Running the Compiler</input></li>
+                  <li><input name="q21" type="radio" value="b">Incrementing or decrementing a value each time the code inside the loop is executed</input></li>
+                  <li><input name="q21" type="radio" value="c">Checking if there are compile time errors</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q22" data-question="22">
+                <h1> Insert Question 22 here </h1>
+                <ul>
+                  <li><input name="q22" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q22" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q22" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q22" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <div class="divToSayNext"><h1>Go to the next lesson!</h1></div>
+              <!-- End-->
+            </div>
+          </div>
+
+          <!--TAB 10-->
+          <div id="tab10" class="tab">
+            <div class="inside-tab-text">
+              <p>Tab #10 content goes here!</p>
+              <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+            </div>
+            <div class="inside-tab-video">
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab-->
+              <form class="questionForm" id="q23" data-question="23">
+                <h1> Insert Question 23 here </h1>
+                <ul>
+                  <li><input name="q23" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q23" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q23" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q23" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <form class="questionForm" id="q24" data-question="24">
+                <h1> Insert Question 24 here </h1>
+                <ul>
+                  <li><input name="q24" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q24" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q24" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q24" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q25" data-question="25">
+                <h1> Insert Question 25 here </h1>
+                <ul>
+                  <li><input name="q25" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q25" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q25" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q25" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+              <div id="result"></div>
+              <!-- End -->
+            </div>
+          </div>
+      </div>
+  </div>
+  <script type="text/javascript" src="jquery.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>
