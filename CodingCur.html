@@ -1,0 +1,202 @@
+<!DOCTYPE Html>
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+  <!--<script type="text/javascript" src="jquery.js"></script>-->
+  <script type="text/javascript" src="quiz.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<title>Essentials of Java</title>
+</head>
+<body>
+  <div class="logo">
+        <h1>IDP</h1>
+  </div>
+  <div class="main-title">
+    <h1><center>Java Fundamentals</center></h1>
+  </div>
+  <div class="tabs">
+      <ul class="tab-links">
+          <li class="active"><a href="#tab1">Title One</a></li>
+          <li><a href="#tab2">Title Two</a></li>
+          <li><a href="#tab3">Title Three</a></li>
+          <li><a href="#tab4">Title Four</a></li>
+      </ul>
+
+      <div class="tab-content">
+          <!--TAB 1-->
+          <div id="tab1" class="tab active">
+            <div class="inside-tab-text">
+              <p>Tab #1 content goes here!</p>
+              <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+            </div>
+            <div class="inside-tab-video">
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab-->
+              <form class="questionForm" id="q1" data-question="1">
+                <h1> Insert Question 1 here </h1>
+                <ul>
+                  <li><input name="q1" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q1" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q1" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q1" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q2" data-question="2">
+                <h1> Insert Question 2 here </h1>
+                <ul>
+                  <li><input name="q2" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q2" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q2" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q2" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q3" data-question="3">
+                <h1> Insert Question 3 here </h1>
+                <ul>
+                  <li><input name="q3" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q3" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q3" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q3" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+            </div>
+          </div>
+
+          <!--TAB 2-->
+          <div id="tab2" class="tab">
+            <div class="inside-tab-text">
+              <p>Tab #2 content goes here!</p>
+              <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+            </div>
+            <div class="inside-tab-video">
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab-->
+              <form class="questionForm" id="q4" data-question="4">
+                <h1> Insert Question 4 here </h1>
+                <ul>
+                  <li><input name="q4" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q4" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q4" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q4" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q5" data-question="5">
+                <h1> Insert Question 5 here </h1>
+                <ul>
+                  <li><input name="q5" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q5" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q5" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q5" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q6" data-question="6">
+                <h1> Insert Question 6 here </h1>
+                <ul>
+                  <li><input name="q6" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q6" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q6" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q6" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+                <!-- End -->
+            </div>
+          </div>
+
+          <!--TAB 3-->
+          <div id="tab3" class="tab">
+            <div class="inside-tab-text">
+              <p>Tab #3 content goes here!</p>
+              <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+            </div>
+            <div class="inside-tab-video">
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab-->
+              <form class="questionForm" id="q7" data-question="7">
+                <h1> Insert Question 7 here </h1>
+                <ul>
+                  <li><input name="q7" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q7" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q7" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q7" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q8" data-question="8">
+                <h1> Insert Question 8 here </h1>
+                <ul>
+                  <li><input name="q8" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q8" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q8" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q8" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+                <!-- End-->
+            </div>
+          </div>
+
+          <!--TAB 4-->
+          <div id="tab4" class="tab">
+            <div class="inside-tab-text">
+              <p>Tab #4 content goes here!</p>
+              <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+            </div>
+            <div class="inside-tab-video">
+            </div>
+            <div class="inside-tab-mcq">
+              <!-- multiple choice question in-tab-->
+              <form class="questionForm" id="q9" data-question="9">
+                <h1> Insert Question 9 here </h1>
+                <ul>
+                  <li><input name="q9" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q9" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q9" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q9" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q10" data-question="10">
+                <h1> Insert Question 10 here </h1>
+                <ul>
+                  <li><input name="q10" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q10" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q10" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q10" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+
+              <form class="questionForm" id="q11" data-question="11">
+                <h1> Insert Question 11 here </h1>
+                <ul>
+                  <li><input name="q11" type="radio" value="a">Answer A</input></li>
+                  <li><input name="q11" type="radio" value="b">Answer B</input></li>
+                  <li><input name="q11" type="radio" value="c">Answer C</input></li>
+                  <li><input name="q11" type="radio" value="d">Answer D</input></li>
+                </ul>
+                <button id="check">Done</button>
+              </form>
+                <!-- End -->
+            </div>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
